@@ -1,0 +1,280 @@
+[
+    {
+        "title": "Npm",
+        "h1": true
+    },
+    {
+        "title": "查看npm源",
+        "data": "npm config get registry"
+    },
+    {
+        "title": "切换npm源",
+        "data": [
+            "切到npm源：",
+            "nrm use npm",
+            "切到淘宝源：",
+            "nrm use taobao"
+        ]
+    },
+    {
+        "title": "npm升级依赖到指定版本",
+        "data": "npm install xxx@1.2.3 --save"
+    },
+    {
+        "title": "Node",
+        "h1": true
+    },
+    {
+        "title": "查看node所有版本",
+        "data": "n list"
+    },
+    {
+        "title": "切换node版本",
+        "data": "sudo n"
+    },
+    {
+        "title": "VUE",
+        "h1": true
+    },
+    { 
+        "title": "vue3 的 prop",
+        "data": [
+            "interface Props {",
+            "   list: any;",
+            "   loading: boolean;",
+            "}",
+            "const props = withDefaults(defineProps<Props>(), {",
+            "    list: () => [],",
+            "    loading: false,",
+            "});"
+        ]
+    },
+    {
+        "title": "vue2 的 prop",
+        "data": [
+            "props: {",
+            "   name: {",
+            "       type: String,",
+            "       efault: '',",
+            "   },",
+            "},"
+        ]
+    },
+    {
+        "title": "vue2 的 watch",
+        "data": [
+            "watch: {",
+            "    columns: {",
+            "      handler(val) {},",
+            "      immediate: true,",
+            "      deep: true,",
+            "    },",
+            "},"
+        ]
+    },
+    
+    {
+        "title": "网络",
+        "h1": true
+    },
+    {
+        "title": "查看本机 ip 地址",
+        "data": "ipconfig getifaddr en0"
+    },
+    {
+        "title": "CSS",
+        "h1": true
+    },
+    {
+        "title": "flex下容器防止被压缩",
+        "data": "flex-shrink: 0;"
+    },
+    {
+        "title": "无法选中",
+        "data": "user-select: none;"
+    },
+    {
+        "title": "超出换行",
+        "data": "word-wrap: break-word;"
+    },
+    {
+        "title": "超出几行换行",
+        "data": [
+           "display: -webkit-box;",
+            "-webkit-box-orient: vertical;",
+            "overflow: hidden;",
+            "text-overflow: ellipsis;",
+            "-webkit-line-clamp: 3;"
+        ]
+    },
+    {
+        "title": "Git",
+        "h1": true
+    },
+    {
+        "title": "暂存提交",
+        "data": "git commit -a -m '你的提交信息'  ==  git add .  && git commit -m ‘信息’"
+    },
+    {
+        "title": "常用操作",
+        "data": 
+        [
+            "新建分支",
+            "git branch <branch-name>",
+            "切换到新建的分支",
+            "git checkout <branch-name>",
+            "新建并切换到新分支",
+            "git checkout -b <branch-name>",
+            "将本地分支推送到远程仓库",
+            "git push -u origin <branch-name>",
+            "切换到master分支",
+            "git checkout master",
+            "feature合并到master分支上",
+            "git merge feature"
+        ]
+    },
+    {
+        "title": "查看git配置",
+        "data": "git config --global -l"
+    },
+    {
+        "title": "删除本地分支拉远程",
+        "data": 
+        [
+            "删除本地test分支",
+            "git branch -D test",
+            "切换到master分支",
+            "git checkout master",
+            "拉取远程master分支",
+            "git pull origin master",
+            "拉取远程test分支并在本地创建test分支，:后面的test是本地要创建分支名",
+            "git fetch origin test:test",
+            "切换到test分支",
+            "git checkout test"
+        ]
+    },
+    {
+        "title": "强制推送",
+        "data": 
+        [
+            "如果你确信你的本地分支是最新的，并且你想要覆盖远程分支上的更改（注意这可能会丢失其他人的工作）",
+            "git push --force或git push --force-with-lease（更安全）"
+        ]
+    },
+    {
+        "title": "TS类型",
+        "h1": true
+    },
+    {
+        "title": "常见dom元素类型",
+        "data": 
+        [
+            "canvas 类型：",
+            "HTMLCanvasElement",
+            "canvas 的 ctx 类型：",
+            "CanvasRenderingContext2D",
+            "image 类型：",
+            "HTMLImageElement",
+            "element 类型：",
+            "HTMLElement",
+            "node 类型：",
+            "Node",
+            "input 类型：",
+            "HTMLInputElement",
+            "button 类型：",
+            "HTMLButtonElement"
+        ]
+    },
+    {
+        "title": "网络音视频资源",
+        "h1": true
+    },
+    {
+        "title": "在线音频mp3测试地址",
+        "data": [
+            "http://music.163.com/song/media/outer/url?id=447925558.mp3",
+            "https://www.cambridgeenglish.org/images/153149-movers-sample-listening-test-vol2.mp3",
+            "https://www.cambridgeenglish.org/images/506891-a2-key-for-schools-listening-sample-test.mp3",
+            "http://downsc.chinaz.net/Files/DownLoad/sound1/201906/11582.mp3",
+            "http://downsc.chinaz.net/files/download/sound1/201206/1638.mp3"
+        ]
+    },
+    {
+        "title": "在线视频mp4测试地址",
+        "data": [
+            "https://media.w3.org/2010/05/sintel/trailer.mp4",
+            "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4",
+            "http://vjs.zencdn.net/v/oceans.mp4",
+            "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319212559089721.mp4",
+            "http://vfx.mtime.cn/Video/2019/03/18/mp4/190318231014076505.mp4"
+        ]
+    },
+    {
+        "title": "mongodb",
+        "h1": true
+    },
+    {
+        "title": "常用操作",
+        "data": 
+        [
+            "运行 MongoDB:",
+            "brew services start mongodb-community@6.0",
+            "停止运行 MongoDB:",
+            "brew services stop mongodb-community@6.0"
+        ]
+    },
+    {
+        "title": "Studio 3T 下操作 MongoDB 的常用命令",
+        "data": 
+        [
+            "左边是mongodb查询语句, 右边是sql语句",
+            "1.查询所有文档:",
+            "db.users.find()",
+            "或",
+            "db.getCollection('users').find({})",
+            "2.查询特定条件的文档:",
+            "db.users.find({'age' : 27})",
+            "db.users.find({'username' : 'joe', 'age' : 27})",
+            "3.查询排序后的文档:",
+            "db.users.find().sort({'age': 1})",
+            "4.查询限制数量的文档:",
+            "db.users.find().limit(10)",
+            "5.查询跳过指定数量的文档:",
+            "db.users.find().skip(5)",
+            "6.查询并返回特定字段的文档:",
+            "db.users.find({}, {'username': 1, '_id': 0})",
+            "其他语句:",
+            "https://blog.csdn.net/weixin_41888813/article/details/89362485"
+        ]
+    },
+    {
+        "title": "pm2",
+        "h1": true
+    },
+    {
+        "title": "常用操作1",
+        "data": 
+        [
+            "启动",
+            "pm2 start xxx.js",
+            "重启",
+            "pm2 restart <id/name>",
+            "重载",
+            "pm2 reload",
+            "列表",
+            "pm2 list",
+            "日志",
+            "pm2 logs <id/name>",
+            "停止",
+            "pm2 stop <id/name>",
+            "停止所有",
+            "pm2 stop all",
+            "删除",
+            "pm2 delete <id/name>",
+            "删除所有",
+            "pm2 delete all",
+            "监控",
+            "pm2 monit"
+        ]
+    }
+]
