@@ -1,5 +1,34 @@
 [
     {
+        "title": "代码规范",
+        "h1": true
+    },
+    {
+        "title": "表单列表配置$",
+        "data": 
+        [
+            "列表:",
+            ":label-position='$ListLabelPosition'",
+            ":label-suffix='$ListLabelSuffix'",
+            "编辑、新增:",
+            ":label-position='$EALabelPosition'",
+            ":label-suffix='$EALabelSuffix'",
+            "详情:",
+            ":label-position='$DetalLabelPosition'",
+            ":label-suffix='$DetalLabelSuffix'",
+            "--------",
+            "详情水平位置、后缀",
+            "Vue.prototype.$DetalLabelPosition = 'left';",
+            "Vue.prototype.$DetalLabelSuffix = '：';",
+            "编辑、新增水平位置、后缀",
+            "Vue.prototype.$EALabelPosition = 'left';",
+            "Vue.prototype.$EALabelSuffix = '：';",
+            "列表水平位置、后缀",
+            "Vue.prototype.$ListLabelPosition = 'right';",
+            "Vue.prototype.$ListLabelSuffix = '';"
+        ]
+    },
+    {
         "title": "Npm",
         "h1": true
     },
@@ -130,7 +159,9 @@
             "切换到master分支",
             "git checkout master",
             "feature合并到master分支上",
-            "git merge feature"
+            "git merge feature",
+            "根据commit查询提交内容",
+            "git show <commit>"
         ]
     },
     {
