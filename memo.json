@@ -16,17 +16,21 @@
             "详情:",
             ":label-position='$DetalLabelPosition'",
             ":label-suffix='$DetalLabelSuffix'",
-            "--------",
-            "详情水平位置、后缀",
-            "Vue.prototype.$DetalLabelPosition = 'left';",
-            "Vue.prototype.$DetalLabelSuffix = '：';",
+            "------------------------",
+            "列表水平位置、后缀",
+            "Vue.prototype.$ListLabelPosition = 'right';",
+            "Vue.prototype.$ListLabelSuffix = '';",
             "编辑、新增水平位置、后缀",
             "Vue.prototype.$EALabelPosition = 'left';",
             "Vue.prototype.$EALabelSuffix = '：';",
-            "列表水平位置、后缀",
-            "Vue.prototype.$ListLabelPosition = 'right';",
-            "Vue.prototype.$ListLabelSuffix = '';"
+            "详情水平位置、后缀",
+            "Vue.prototype.$DetalLabelPosition = 'left';",
+            "Vue.prototype.$DetalLabelSuffix = '：';"
         ]
+    },
+    {
+        "title": "搜索",
+        "data": ":search='()=>{submitForm.pageNum=1,getList()}'"
     },
     {
         "title": "Npm",
